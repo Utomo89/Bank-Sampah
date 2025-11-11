@@ -1,5 +1,4 @@
 # Bank-Sampah
-Here’s a suggested **README.md** for your repository **Bank‑Sampah** by Utomo89 (based on the repository at [https://github.com/Utomo89/Bank-Sampah.git](https://github.com/Utomo89/Bank-Sampah.git) ([GitHub][1])). You can tweak sections like features, tech stack, usage, etc., to match your actual implementation.
 
 ---
 
@@ -40,7 +39,7 @@ This project is a web application built to support the operations of a Waste Ban
 
 - Backend: PHP (or another server-side language)  
 - Frontend: HTML, CSS, JavaScript (or Blade templating if using Laravel)  
-- Database: MySQL / MariaDB  
+- Database: PostgreSQL
 - Framework(s): (e.g., Laravel, CodeIgniter)  
 - UI: Bootstrap / Tailwind CSS  
 - Version control: Git & GitHub  
