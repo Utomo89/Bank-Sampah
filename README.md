@@ -1,155 +1,59 @@
-# Bank-Sampah
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
----
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-````markdown
-# Bank-Sampah
+## About Laravel
 
-A repository for a “Bank Sampah” (Waste Bank) application — a system for managing waste collection, sorting, recycling and related transactions.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## Table of Contents
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-- [About](#about)  
-- [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Project Structure](#project-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## About
+## Learning Laravel
 
-This project is a web application built to support the operations of a Waste Bank (Bank Sampah) — enabling users and administrators to manage waste deposit, sort types of waste, handle transactions (e.g., deposits, withdrawals, point or currency exchange), and maintain records of members, inventory, and finances.
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
 
-## Features
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-- Member management (registration, profile, member list)  
-- Waste type catalog (type name, unit, price)  
-- Transaction handling (deposit waste, withdraw value, exchange points)  
-- Inventory tracking (waste in stock, incoming/outgoing)  
-- Financial reporting (summary of transactions, income/expenses)  
-- Administrator dashboard for oversight  
-- Responsive UI for use on web browsers  
+## Laravel Sponsors
 
-> You may update this section based on actual implemented features.
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-## Tech Stack
+### Premium Partners
 
-- Backend: PHP (or another server-side language)  
-- Frontend: HTML, CSS, JavaScript (or Blade templating if using Laravel)  
-- Database: PostgreSQL
-- Framework(s): (e.g., Laravel, CodeIgniter)  
-- UI: Bootstrap / Tailwind CSS  
-- Version control: Git & GitHub  
-
-> Adjust to reflect the actual technologies used in the repository.
-
-## Installation
-
-Follow these steps to run the application locally:
-
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/Utomo89/Bank-Sampah.git
-   cd Bank-Sampah
-````
-
-2. Install dependencies
-
-   ```bash
-   # e.g., composer install  (if PHP, Laravel)
-   # or npm install  (if frontend toolchain)
-   ```
-
-3. Set up environment
-
-   * Copy `.env.example` → `.env`
-   * Configure database credentials and other settings
-   * Generate application key (if required)
-
-     ```bash
-     php artisan key:generate
-     ```
-
-4. Create database and run migrations / seeders
-
-   ```bash
-   php artisan migrate --seed
-   ```
-
-5. Start the development server
-
-   ```bash
-   php artisan serve
-   # or appropriate command
-   ```
-
-6. Open in browser at `http://localhost:8000` (or configured port)
-
-## Usage
-
-* Register or login as an administrator or member.
-* As administrator: add/manage waste types, set prices, view transactions and reports.
-* As member: deposit waste, view your balance / points, request withdrawal or exchange.
-* View inventory, financial summaries, export or print reports.
-
-## Project Structure
-
-```
-Bank-Sampah/
-├── app/              ← Application source code  
-├── public/           ← Public assets (CSS, JS, images)  
-├── resources/        ← Views / templates  
-├── database/         ← Migrations / Seeders  
-├── routes/           ← Application routes  
-├── .env.example      ← Example environment config  
-├── README.md         ← Project documentation  
-└── ...
-```
-
-> Adjust the structure to reflect your actual repository.
+- **[Vehikl](https://vehikl.com)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Redberry](https://redberry.international/laravel-development)**
+- **[Active Logic](https://activelogic.com)**
 
 ## Contributing
 
-Contributions are welcome! If you’d like to help improve the project:
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature/YourFeature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature/YourFeature`
-5. Open a Pull Request describing your changes.
+## Code of Conduct
 
-Please ensure your contributions adhere to the project’s code style and include tests where appropriate.
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
-Specify the license under which the project is distributed (e.g., MIT, GPL).
-If you are using MIT, you can add:
-
-```
-MIT © Utomo89
-```
-
-## Contact
-
-If you have questions or suggestions, feel free to contact:
-
-* Author: Utomo89
-* GitHub: [https://github.com/Utomo89](https://github.com/Utomo89)
-
----
-
-Thank you for using, reviewing, or contributing to this project!
-
-```
-
----
-
-If you like, I can **generate a fully tailored README.md** based on actual code structure & files found in your repo (I can inspect more deeply). Would you like me to do that?
-::contentReference[oaicite:3]{index=3}
-```
-
-[1]: https://github.com/Utomo89/Bank-Sampah.git "GitHub - Utomo89/Bank-Sampah"
-
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
